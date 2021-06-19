@@ -29,9 +29,9 @@
     </div>
   </div>
   <ul class="thumb">
-    <li><img src="sbrownie.png"></li>
-    <li><img src="obrownie.png"></li>
-    <li><img src="mintbrownie.png"></li>
+    <li><img src="sbrownie.png" onclick="imgSlider('sbrownie.png');changeCircleColor('#FFF222')"></li>
+    <li><img src="obrownie.png" onclick="imgSlider('obrownie.png');changeCircleColor('#FFA500')"></li>
+    <li><img src="mintbrownie.png" onclick="imgSlider('mintbrownie.png');changeCircleColor('#98ff98')"></li>
   </ul>
   <ul class="sci">
     <li><a href="#"><img src=""></a></li>
@@ -42,7 +42,12 @@
 
   <script type="text/javascript">
     function imgSlider(anything){
-      document.querySelector('')
+      document.querySelector('.hazelnut').src = anything;
+    }
+
+    function changeCircleColor(color){
+      const circle = document.querySelector('.circle');
+      circle.style.background = color;
     }
   </script>
 </body>
