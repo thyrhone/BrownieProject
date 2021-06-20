@@ -11,9 +11,9 @@ section {
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  justify-content: space-between;
 
 }
 
@@ -52,16 +52,8 @@ header ul li a {
   text-decoration: none;
 }
 
-.content {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .content .textBox {
-position: relative;
+  position: relative;
 max-width: 600px;
 }
 
@@ -70,6 +62,7 @@ max-width: 600px;
   font-size: 4em;
   line-height: 1.4em;
   font-weight: 500;
+  padding-right: 100px;
 }
 
 .content .textBox h2 span {
@@ -106,14 +99,10 @@ text-decoration: none;
   max-width: 340px;
 }
 
-div img {
-  border-radius: 20%;
-}
-
 .thumb {
 position: absolute;
-left: 80%;
-bottom: 10px;
+left: 50%;
+bottom: 20px;
 transform: translateX(-50%);
 display: flex;
 }
@@ -132,9 +121,28 @@ display: flex;
 
 .thumb li img {
   max-width: 60px;
-  border-radius: 20%;
-  height: 50px;
-  width: 50px;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
 }
 
 .circle {
@@ -145,12 +153,6 @@ display: flex;
   height: 100%;
   background: #5F322D;
   clip-path: circle(800px at right 800px);
-}
-
-.circle h2 {
-  padding: 660px 300px 100px 940px;
-  font-size: 1.7em;
-  color:
 }
 
 .fa {
