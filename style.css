@@ -36,7 +36,7 @@ header .logo {
 header ul {
   position: relative;
   display: flex;
-  padding: 10px 60px;
+  padding: 25px 0;
 
 }
 
@@ -97,7 +97,7 @@ text-decoration: none;
 
 .circle {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -113,7 +113,7 @@ text-decoration: none;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: white;
+  color: black;
 }
 
 .social-icons {
@@ -127,6 +127,34 @@ text-decoration: none;
   padding-top: 70px;
   padding-right: 10px;
   display: inline-table;
+}
+
+.brownie {  /* brownie header*/
+  padding-left: 10px;
+  padding-top: 25px;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.milkshakes { /* header for milkshakes*/
+  padding-left: 10px;
+  padding-top: 35px;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.icecream { /* header for icecream*/
+  padding-left: 10px;
+  padding-top: 35px;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.drinks { /* header for drinks*/
+  padding-left: 10px;
+  padding-top: 35px;
+  font-size: 30px;
+  font-family: Arial;
 }
 
 /*MENU HEADER WEBPAGE*/
@@ -146,13 +174,73 @@ text-decoration: none;
 
 /**MENU ITEMS**/
 #padding1 { /*PADDING FOR BROWNIE #1*/
-  padding-left: 10px;
-  padding-top: 50px;
-  display: inline;
+  padding-left: 40px;
+  padding-top: 40px;
+  display: inline-block;
 }
 
 #padding2 { /* PADDING FOR BROWNIE #2*/
-  padding-left: 420px;
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding3 { /* PADDING FOR BROWNIE #3*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding4 { /* PADDING FOR milkshake #1*/
+  padding-left: 40px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#padding5 { /* PADDING FOR milkshake #2*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding6 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding7 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#padding8 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding9 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding10 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#padding11 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+#padding12 { /* PADDING FOR milkshake #3*/
+  padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
@@ -176,6 +264,8 @@ text-decoration: none;
   border-radius: 20px;
   width: 400px;
   height: 650px;
+  position: relative;
+  top: 10px;
 }
 
 #menu-images {
