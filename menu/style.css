@@ -128,3 +128,10 @@ text-decoration: none;
   padding-right: 10px;
   display: inline-table;
 }
+
+/**BROWNIE 1**/
+#brownie1 {
+  color: blue;
+  font-size: 25px;
+  font-weight: 900;
+}
