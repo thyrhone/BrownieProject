@@ -26,17 +26,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 header .logo {
   position: relative;
-  max-width: 100px;
+  max-width: 50px;
 }
 
 header ul {
   position: relative;
   display: flex;
-  padding: 10px 60px;
+  padding: 25px 0;
 
 }
 
