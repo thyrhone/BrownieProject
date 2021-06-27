@@ -177,3 +177,33 @@ display: flex;
   padding-right: 10px;
   display: inline-table;
 }
+
+.contact-form {
+  border-width: 5px;
+  border-color: brown;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  opacity: 0.8;
+  margin: 20px;
+  border: 1px solid grey;
+  background-color: #DEB887;
+  width: 1450px;
+  height: 100px;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+footer .cookies {
+  display: inline;
+  padding: 20px;
+}
+
+.rest {
+  padding: 20px;
+  display: inline-block;
+}
