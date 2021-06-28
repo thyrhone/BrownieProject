@@ -85,3 +85,18 @@ header ul li a {
   padding-right: 10px;
   display: inline-table;
 }
+
+.get-in-touch {
+  font-size: 60px;
+  color: auto;
+  float: left;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.get-in-touch li {
+  font-size: 19px;
+  font-family: 'Nanum Myeongjo', serif;
+  list-style-type: none;
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
