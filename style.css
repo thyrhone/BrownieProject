@@ -14,7 +14,6 @@ section {
   align-items: center;
   background-color: #fff;
   justify-content: space-between;
-
 }
 
 header {
@@ -26,7 +25,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 5;
 }
 
 header .logo {
@@ -38,7 +37,6 @@ header ul {
   position: relative;
   display: flex;
   padding: 25px 0;
-
 }
 
 header ul li {
@@ -63,8 +61,8 @@ header ul li a {
 }
 
 .content .textBox {
-position: relative;
-max-width: 600px;
+  position: relative;
+  max-width: 600px;
 }
 
 .content .textBox h2 {
@@ -85,15 +83,15 @@ max-width: 600px;
 }
 
 .content .textBox a {
-display: inline-block;
-margin-top: 20px;
-padding: 8px 20px;
-background: #5F322D;
-color: #fff;
-border-radius: 40px;
-font-weight: 500;
-letter-spacing: 1px;
-text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #5F322D;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .circle {
@@ -130,28 +128,32 @@ text-decoration: none;
   display: inline-table;
 }
 
-.brownie {  /* brownie header*/
+.brownie {
+  /* brownie header*/
   padding-left: 10px;
   padding-top: 25px;
   font-size: 30px;
   font-family: Arial;
 }
 
-.milkshakes { /* header for milkshakes*/
+.milkshakes {
+  /* header for milkshakes*/
   padding-left: 10px;
   padding-top: 35px;
   font-size: 30px;
   font-family: Arial;
 }
 
-.icecream { /* header for icecream*/
+.icecream {
+  /* header for icecream*/
   padding-left: 10px;
   padding-top: 35px;
   font-size: 30px;
   font-family: Arial;
 }
 
-.drinks { /* header for drinks*/
+.drinks {
+  /* header for drinks*/
   padding-left: 10px;
   padding-top: 35px;
   font-size: 30px;
@@ -174,88 +176,100 @@ text-decoration: none;
 }
 
 /**MENU ITEMS**/
-#padding1 { /*PADDING FOR BROWNIE #1*/
+#padding1 {
+  /*PADDING FOR BROWNIE #1*/
   padding-left: 40px;
   padding-top: 40px;
   display: inline-block;
 }
 
-#padding2 { /* PADDING FOR BROWNIE #2*/
+#padding2 {
+  /* PADDING FOR BROWNIE #2*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding3 { /* PADDING FOR BROWNIE #3*/
+#padding3 {
+  /* PADDING FOR BROWNIE #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding4 { /* PADDING FOR milkshake #1*/
+#padding4 {
+  /* PADDING FOR milkshake #1*/
   padding-left: 40px;
   padding-top: 20px;
   display: inline-block;
 }
 
-#padding5 { /* PADDING FOR milkshake #2*/
+#padding5 {
+  /* PADDING FOR milkshake #2*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding6 { /* PADDING FOR milkshake #3*/
+#padding6 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding7 { /* PADDING FOR milkshake #3*/
+#padding7 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 20px;
   display: inline-block;
 }
 
-#padding8 { /* PADDING FOR milkshake #3*/
+#padding8 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding9 { /* PADDING FOR milkshake #3*/
+#padding9 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding10 { /* PADDING FOR milkshake #3*/
+#padding10 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 20px;
   display: inline-block;
 }
 
-#padding11 { /* PADDING FOR milkshake #3*/
+#padding11 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
-#padding12 { /* PADDING FOR milkshake #3*/
+#padding12 {
+  /* PADDING FOR milkshake #3*/
   padding-left: 40px;
   padding-top: 0px;
   display: inline-block;
 }
 
 #menu-descriptions {
-    font-size: 15px;
-    font-weight: lighter;
-    color: #5F322D;
-    font-family: Arial;
-    text-align: justify;
-    margin: 10px;
-    padding-right: 200px;
-    padding-top: 400px;
-    padding-left: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #5F322D;
+  font-family: Arial;
+  text-align: justify;
+  margin: 10px;
+  padding-right: 200px;
+  padding-top: 400px;
+  padding-left: 10px;
 }
 
 #menu-boxes {

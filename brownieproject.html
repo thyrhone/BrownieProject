@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +8,70 @@
   <link rel="stylesheet" href="brownieproject.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
   <section>
     <div class="circle">
       <h2>click me</h2>
     </div>
-  <header>
-    <a href="#"><img src="cbroWNIES.png" class="logo"></a>
-    <ul>
-      <li><a href="#">home</a></li>
-      <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-menu.html">menu</a></li>
-      <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-newbrownies.html" style='color: white;'>new brownies</a></li>
-      <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-infocontact.html" style='color: white;'>info/contact</a></li>
-    </ul>
-  </header>
-  <div class="content">
-    <div class="textBox">
-      <h2>it's not just any brownie<br>It's <span>Chocolati Brownie</span></h2>
-      <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+    <header>
+      <a href="#"><img src="cbroWNIES.png" class="logo"></a>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-menu.html">menu</a></li>
+        <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-newbrownies.html" style='color: white;'>new brownies</a></li>
+        <li><a href="file:///C:/Users/thyrh/OneDrive/Documents/Brownie%20Project/BrownieProject/brownieproject-infocontact.html" style='color: white;'>info/contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>it's not just any brownie<br>It's <span>Chocolati Brownie</span></h2>
+        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book it has?</p>
         <a href="#">Wanna know more ?</a>
+      </div>
+      <div class="imgBox">
+        <img src="browniesh.png" class="hazelnut">
+      </div>
     </div>
-    <div class="imgBox">
-      <img src="browniesh.png" class="hazelnut">
-    </div>
-  </div>
-  <ul class="thumb">
-    <li><img src="sbrownie.png" onclick="imgSlider('sbrownie.png');changeCircleColor('#FFF222')"></li>
-    <li><img src="obrownie.png" onclick="imgSlider('obrownie.png');changeCircleColor('#FFA500')"></li>
-    <li><img src="mintbrownie.png" onclick="imgSlider('mintbrownie.png');changeCircleColor('#98ff98')"></li>
-  </ul>
+    <ul class="thumb">
+      <li><img src="sbrownie.png" onclick="imgSlider('sbrownie.png');changeCircleColor('#FFF222')"></li>
+      <li><img src="obrownie.png" onclick="imgSlider('obrownie.png');changeCircleColor('#FFA500')"></li>
+      <li><img src="mintbrownie.png" onclick="imgSlider('mintbrownie.png');changeCircleColor('#98ff98')"></li>
+    </ul>
   </section>
 
-<!-- having trouble enlarging the sizes -->
+  <!-- having trouble enlarging the sizes -->
   <aside class='social-icons'>
     <div>
       <a href="#" class="fa fa-facebook fa-4x"></a>
-    <div>
+      <div>
 
-    <div>
-      <a href="#" class="fa fa-twitter fa-4x"></a>
-    </div>
+        <div>
+          <a href="#" class="fa fa-twitter fa-4x"></a>
+        </div>
 
-    <div>
-      <a href='#' class="fa fa-instagram fa-4x"></a>
-    </div>
+        <div>
+          <a href='#' class="fa fa-instagram fa-4x"></a>
+        </div>
 
-    <a href='#' class="fa fa-tiktok fa-4x"></a>
+        <a href='#' class="fa fa-tiktok fa-4x"></a>
   </aside>
 
-  <script type="text/javascript">
+  <footer class='footer'>
+    <p class='cookies'>Cookies</p>
+    <p class='rest'>Contact</p>
+    <p class='rest'>Brownies Coming Soon</p>
+    <p class='rest'>Privacy</p>
+    <p class='rest'>Social media</p>
+  </footer>
 
-    function imgSlider(anything){
+  <script type="text/javascript">
+    function imgSlider(anything) {
       document.querySelector('.hazelnut').src = anything;
     }
 
-    function changeCircleColor(color){
+    function changeCircleColor(color) {
       const circle = document.querySelector('.circle');
       circle.style.background = color;
     }
