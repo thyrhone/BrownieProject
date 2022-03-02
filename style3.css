@@ -91,12 +91,41 @@ header ul li a {
   color: auto;
   float: left;
   font-family: "Nanum Myeongjo", serif;
+  display: inline;
 }
 
 .get-in-touch li {
+  position: relative;
   font-size: 19px;
   font-family: 'Nanum Myeongjo', serif;
   list-style-type: none;
-  padding-bottom: 50px;
-  padding-left: 10px;
+  height: 20px;
+}
+
+.padding-GIT {
+  padding-bottom: 0px;
+}
+
+.contact-form {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 10px;
+  width: 100px;
+  height: 300px;
+}
+
+
+/* this is the contact us form */
+.boxonright {
+z-index: 5;
+padding-left: 430px;
+padding-top: 60px;
+}
+
+.boxonright h1 {
+  font-size: 35px;
+}
+
+.boxonright form {
+  padding-top: 50px;
 }
